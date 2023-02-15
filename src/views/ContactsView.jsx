@@ -1,7 +1,5 @@
-import { Loader } from 'components/Loader/Loader';
 import { Form } from 'components/Form/Form';
 import { ContactList } from 'components/ContactList/ContactList';
-import { nanoid } from 'nanoid';
 import { Filter } from 'components/Filter/Filter';
 import { fetchContacts, addContact } from 'redux/contacts/contacts_operations';
 import { check } from 'redux/contacts/contacts_slice';
